@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="para.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+BE+VLG:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+     <!-- Video Background Container -->
+     <div class="video-container">
+        <video autoplay muted loop id="background-video">
+            <source src="c:\Users\m\Downloads\istockphoto-699620004-640_adpp_is.mp4" type="video/mp4">
+            if the video is not supported update your browser or change your browser.
+        </video>
+    </div>
+
+    <audio id="bgm" loop>
+       
+        <source src="c:\Users\m\Desktop\HANEEN\TheFatRat - Rise Up (Lyrics)_320kbps.mp3" type="audio/mp3">
+      </audio>
+      
+      <button id="play-mute-btn" onclick="playMuteBGM()">
+        <i class="fa fa-play" aria-hidden="true"></i>
+      </button>
+
+
+   
+<!-- Parallax Header Section -->
+<header class="parallax-section" id="header">
+    
+    <div class="container text-center text-white">
+       
+         
+        <h1>Welcome to the Parallax Website</h1>
+        <p>Scroll down to see the parallax effect of nature</p>
+    </div>
+</header>
+
+<!-- Content Section 1 -->
+<section class="content-section bg-light" id="section1">
+    <div class="container py-5">
+        
+        <h2 class="text-center">Nature</h2>
+        <p>A Beautiful Image Of Nature</p>
+        <img  src="https://cdn.wallpapersafari.com/24/37/K4wNkq.jpg" class="img-fluid rounded" alt="Responsive Image"  >
+    </div>
+</section>
+
+<!-- Parallax Section 2 -->
+<section class="parallax-section" id="section2">
+    <div class="container text-center text-white">
+        <h2>A Beautiful place</h2>
+        <p>Enjoy the visual How was the nature is very Beautiful.</p>
+    </div>
+</section>
+
+<!-- Content Section 2 -->
+<section class="content-section bg-light" id="section3">
+    
+    <div class="container py-5">
+       
+        <h2 class="text-center">The Alarming Pace of Natural Destruction</h2>
+        
+        <p>Deforestation, pollution, and industrialization are tearing apart the delicate balance of our environment, leaving irreversible scars on the planet.</p>
+        <img src="https://scx2.b-cdn.net/gfx/news/2022/sustainable-developmen.jpg"  class="img-fluid rounded" alt="Responsive Image" height="800" width="400">
+        
+        <div class="animation-container">
+           
+    </div>
+</section>
+
+<!-- Parallax Section 3 -->
+<section class="parallax-section" id="section3">
+    <div class="container text-center text-white">
+        <h2>Another  Magic</h2>
+        <p>Nature Give us Satisfication</p>
+    </div>
+</section>
+
+<section id="contacts">
+                <div class="section-head">
+                    <h3 class="main-head">Contacts Us</h3>
+                    
+
+                </div>
+                <div class="icon-collection">
+                    <!-- linkdin -->
+                    <div class="icons">
+                        <a href="www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in brand"></i></a>
+                    </div>
+                    <!-- github -->
+                    <div class="icons">
+                        <a href="www.github.com" target="_blank"><i class="fa-brands fa-github brand"></i></a>
+                    </div>
+                     <!-- Twiter -->
+                     <div class="icons">
+                        <a href="www.twitter.com" target="_blank"><i class="fa-brands fa-twitter brand"></i></a>
+                    </div>
+                    <!-- facebook -->
+                    <div class="icons">
+                        <a href="www.facebook.com" target="_blank"><i class="fa-brands fa-facebook brand"></i></a>
+                    </div>
+                     <!-- instagram -->
+                     <div class="icons">
+                        <a href="www.instagram.com" target="_blank"><i class="fa-brands fa-instagram brand"></i></a>
+                    </div>
+
+                </div>
+
+            </section>
+           
+</section>
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; EAN PROPERTIES. All rights reserved . </p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="scripts.js"></script> <!-- Link to JavaScript file -->
+</div>
+</body>
+</html>
